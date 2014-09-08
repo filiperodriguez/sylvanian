@@ -3,10 +3,6 @@ from peewee import *
 from app import db
 
 
-class Note(db.Model):
-    message = TextField()
-    created = DateTimeField(default=datetime.datetime.now)
-
 class Sylvanians(db.Model):
     name = TextField()
     description = TextField()

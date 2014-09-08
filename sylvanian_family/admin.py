@@ -5,5 +5,5 @@ from auth import auth
 from models import *
 
 admin = Admin(app, auth)
-admin.register(Note)
+#admin.register(Note)
 admin.register(Sylvanians)
