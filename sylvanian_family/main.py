@@ -4,7 +4,7 @@ from auth import *
 from admin import admin
 #from api import api
 from models import *
-#from views import *
+from views import *
 
 admin.setup()
 
